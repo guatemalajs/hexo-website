@@ -1,0 +1,15 @@
+<!--Navigation-->
+ <div class="navbar-fixed">
+    <nav id="nav_f" class="default_color" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper"><a id="logo-container" href="#top" class="brand-logo"><%= config.title %></a>
+            <ul id="nav-mobile" class="right side-nav">
+              <% for (var i in theme.menu){ %>
+	                <li><a href="<%- url_for(theme.menu[i]) %>" class="mobile-nav-link"><%= i %></a></li>
+	            <% } %>
+                <li><a href="#intro">Service</a></li>
+            </ul><a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            </div>
+        </div>
+    </nav>
+</div>

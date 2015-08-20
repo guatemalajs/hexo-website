@@ -62,7 +62,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: hexo-material-design-theme
+theme: guatemalajs
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html

@@ -1,12 +1,9 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
-rss: /atom.xml
-
-# Content
-excerpt_link: Read More
-fancybox: true
+  Nosotros: /#intro
+  Articulos: /#posts
+  Equipo: /#team
+  Comunidad: /#comunidad
 
 # Sidebar
 sidebar: right
